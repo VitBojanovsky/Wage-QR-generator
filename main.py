@@ -62,3 +62,4 @@ for i, row in df.iterrows():
         print(f"Saved QR code for {row['EmployeeName']} - {row['PaymentAmount']:.2f} CZK -> {filename}")
 
 print("\nAll QR codes generated in folder:", output_dir)
+readline = input("Press Enter to exit...")
